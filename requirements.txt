@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+qiskit
+qiskit-aer
+scikit-image
+pillow
+h5py
