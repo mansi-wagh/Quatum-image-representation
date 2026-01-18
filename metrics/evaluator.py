@@ -12,7 +12,7 @@ class Evaluator:
         qubits = qc.num_qubits
         gates = qc.size()
 
-        # 🔥 FAST depth proxy (Strategy 2)
+        
         circuit_depth = max(1, gates // max(1, qubits))
 
         recon_acc = 1 / (1 + qubits / image.size)
